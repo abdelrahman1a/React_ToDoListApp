@@ -1,16 +1,75 @@
-# React + Vite
+# 📝 React TodoList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **TodoList application** built with **React.js** and **Material UI**.  
+Implements **CRUD functionality** and uses **localStorage** to keep tasks persistent.  
+The app is deployed on **Netlify** for a live demo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Add Tasks** – Create a new task with title and details.  
+- **Edit Tasks** – Update existing tasks anytime.  
+- **Delete Tasks** – Remove tasks with a confirmation prompt.  
+- **Mark as Completed** – Toggle tasks as completed/uncompleted.  
+- **Filter Tasks** – View completed, uncompleted, or all tasks.  
+- **Persistent Storage** – Tasks are saved in localStorage, so they remain after refreshing the page.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend library for UI components  
+- **Material UI** – For a modern and responsive UI  
+- **LocalStorage** – To persist tasks in the browser  
+- **Netlify** – For live deployment  
+- **Git & GitHub** – Version control and project hosting  
+
+---
+
+
+## 🌐 Live Demo
+
+Check out the app live on Netlify:  
+[React TodoList App Live](https://preeminent-biscotti-84fda8.netlify.app/)
+
+---
+
+## 💻 Installation / Running Locally
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/abdelrahman1a/React_ToDoListApp.git
+Navigate to the project folder
+
+bash
+Copy code
+cd React_ToDoListApp
+Install dependencies
+
+bash
+Copy code
+npm install
+Start the development server
+
+bash
+Copy code
+npm start
+Your app should now be running on http://localhost:3000.
+
+🗂 Project Structure
+csharp
+Copy code
+React_ToDoListApp/
+├─ src/
+│  ├─ Components/       # Todo component, dialogs, buttons
+│  ├─ Context/          # TodosContext for state management
+│  ├─ App.js
+│  ├─ index.js
+├─ public/
+├─ package.json
+├─ eslint.config.js
+├─ .gitignore
+├─ README.md
+✨ Contributing
+This is a personal project, but feel free to fork, open issues, or suggest improvements.
